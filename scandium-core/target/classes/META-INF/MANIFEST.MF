@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1488550987482
+Build-Jdk: 1.8.0_111
+Built-By: karlsonlee
+Bundle-Description: A library for exchanging data using DTLS over UDP
+Bundle-DocURL: http://www.eclipse.org/
+Bundle-License: http://www.eclipse.org/org/documents/epl-v10.php, http:/
+ /www.eclipse.org/org/documents/edl-v10.php
+Bundle-ManifestVersion: 2
+Bundle-Name: Scandium (Sc) Core
+Bundle-SymbolicName: scandium
+Bundle-Vendor: Eclipse Foundation
+Bundle-Version: 1.1.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.eclipse.californium.scandium;uses:="org.eclipse.cali
+ fornium.elements,org.eclipse.californium.scandium.config,org.eclipse.ca
+ lifornium.scandium.dtls";version="1.1.0",org.eclipse.californium.scandi
+ um.auth;uses:="org.eclipse.californium.elements.util";version="1.1.0",o
+ rg.eclipse.californium.scandium.config;uses:="org.eclipse.californium.s
+ candium.dtls,org.eclipse.californium.scandium.dtls.cipher,org.eclipse.c
+ alifornium.scandium.dtls.pskstore";version="1.1.0",org.eclipse.californ
+ ium.scandium.dtls;uses:="org.eclipse.californium.elements.util,org.ecli
+ pse.californium.scandium.config,org.eclipse.californium.scandium.dtls.c
+ ipher,org.eclipse.californium.scandium.dtls.pskstore";version="1.1.0",o
+ rg.eclipse.californium.scandium.dtls.cipher;uses:="javax.crypto";versio
+ n="1.1.0",org.eclipse.californium.scandium.dtls.pskstore;uses:="org.ecl
+ ipse.californium.scandium.dtls";version="1.1.0"
+Import-Package: javax.crypto,javax.crypto.spec,javax.security.auth.x500,
+ org.eclipse.californium.elements;version="[1.1,2)",org.eclipse.californ
+ ium.elements.util,org.eclipse.californium.scandium.config
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Tool: Bnd-3.0.0.201509101326

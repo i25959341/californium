@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1488550976432
+Build-Jdk: 1.8.0_111
+Built-By: karlsonlee
+Bundle-Description: Java socket abstraction for datagram transports (UDP
+ , DTLS, etc.)
+Bundle-DocURL: http://www.eclipse.org/
+Bundle-License: http://www.eclipse.org/org/documents/epl-v10.php, http:/
+ /www.eclipse.org/org/documents/edl-v10.php
+Bundle-ManifestVersion: 2
+Bundle-Name: element-connector
+Bundle-SymbolicName: element-connector
+Bundle-Vendor: Eclipse Foundation
+Bundle-Version: 1.1.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.eclipse.californium.elements;version="1.1.0"
+Import-Package: io.netty.bootstrap,io.netty.buffer,io.netty.channel,io.n
+ etty.channel.nio,io.netty.channel.pool,io.netty.channel.socket,io.netty
+ .channel.socket.nio,io.netty.handler.codec,io.netty.handler.ssl,io.nett
+ y.handler.timeout,io.netty.util.concurrent,javax.net.ssl,org.eclipse.ca
+ lifornium.elements
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Tool: Bnd-3.0.0.201509101326

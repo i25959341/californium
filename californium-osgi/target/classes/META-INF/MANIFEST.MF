@@ -1,0 +1,77 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1488551032665
+Build-Jdk: 1.8.0_111
+Built-By: karlsonlee
+Bundle-Description: OSGi wrapper
+Bundle-DocURL: http://www.eclipse.org/
+Bundle-License: http://www.eclipse.org/org/documents/epl-v10.php, http:/
+ /www.eclipse.org/org/documents/edl-v10.php
+Bundle-ManifestVersion: 2
+Bundle-Name: Californium (Cf) OSGi Bundle
+Bundle-SymbolicName: californium-osgi
+Bundle-Vendor: Eclipse Foundation
+Bundle-Version: 1.1.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: californium-core;inline=true,element-connector;inline=
+ !about.html
+Export-Package: 
+ org.eclipse.californium.core;uses:="org.eclipse.californium.core.coap,o
+ rg.eclipse.californium.core.network,org.eclipse.californium.core.networ
+ k.config,org.eclipse.californium.core.observe,org.eclipse.californium.c
+ ore.server,org.eclipse.californium.core.server.resources";version="1.1.
+ 0",
+ org.eclipse.californium.core.coap;uses:="org.eclipse.californium.core,o
+ rg.eclipse.californium.core.network,org.eclipse.californium.core.server
+ .resources";version="1.1.0",
+ org.eclipse.californium.core.network;uses:="org.eclipse.californium.cor
+ e.coap,org.eclipse.californium.core.network.config,org.eclipse.californ
+ ium.core.network.interceptors,org.eclipse.californium.core.network.stac
+ k,org.eclipse.californium.core.observe,org.eclipse.californium.core.ser
+ ver,org.eclipse.californium.elements";version="1.1.0",
+ org.eclipse.californium.core.network.config;version="1.1.0",
+ org.eclipse.californium.core.network.interceptors;uses:="org.eclipse.ca
+ lifornium.core.coap";version="1.1.0",
+ org.eclipse.californium.core.network.stack;uses:="org.eclipse.californi
+ um.core.coap,org.eclipse.californium.core.network,org.eclipse.californi
+ um.core.network.config,org.eclipse.californium.core.server";version="1.
+ 1.0",
+ org.eclipse.californium.core.observe;uses:="org.eclipse.californium.cor
+ e.coap,org.eclipse.californium.core.network,org.eclipse.californium.cor
+ e.server.resources";version="1.1.0",
+ org.eclipse.californium.core.server;uses:="org.eclipse.californium.core
+ .coap,org.eclipse.californium.core.network,org.eclipse.californium.core
+ .server.resources";version="1.1.0",
+ org.eclipse.californium.core.server.resources;uses:="org.eclipse.califo
+ rnium.core,org.eclipse.californium.core.coap,org.eclipse.californium.co
+ re.network,org.eclipse.californium.core.observe";version="1.1.0",
+ org.eclipse.californium.elements;version="1.1.0",
+ org.eclipse.californium.osgi;uses:="org.eclipse.californium.core.networ
+ k,org.eclipse.californium.core.network.config,org.eclipse.californium.c
+ ore.server.resources,org.eclipse.californium.elements,org.osgi.framewor
+ k,org.osgi.service.cm,org.osgi.util.tracker";version="1.1.0"
+Import-Package: 
+ io.netty.bootstrap,
+ io.netty.buffer,
+ io.netty.channel,
+ io.netty.channel.nio,
+ io.netty.channel.pool,
+ io.netty.channel.socket,
+ io.netty.channel.socket.nio,
+ io.netty.handler.codec,
+ io.netty.handler.ssl,
+ io.netty.handler.timeout,
+ io.netty.util.concurrent,
+ javax.net.ssl,
+ org.eclipse.californium.core,
+ org.eclipse.californium.core.coap,
+ org.eclipse.californium.core.network.config,
+ org.eclipse.californium.core.network.interceptors,
+ org.eclipse.californium.core.observe,
+ org.eclipse.californium.core.server,
+ org.eclipse.californium.core.server.resources,
+ org.eclipse.californium.elements;version="[1.1,2)",
+ org.osgi.framework;version="[1.6,2)",
+ org.osgi.service.cm;version="[1.4,2)",
+ org.osgi.util.tracker;version="[1.5,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Tool: Bnd-3.0.0.201509101326

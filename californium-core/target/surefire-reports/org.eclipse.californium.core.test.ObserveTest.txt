@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.californium.core.test.ObserveTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.801 sec - in org.eclipse.californium.core.test.ObserveTest

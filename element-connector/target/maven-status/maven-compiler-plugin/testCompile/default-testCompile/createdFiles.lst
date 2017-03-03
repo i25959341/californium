@@ -1,0 +1,9 @@
+org/eclipse/californium/elements/util/DatagramReaderTest.class
+org/eclipse/californium/elements/tcp/TcpConnectorTest.class
+org/eclipse/californium/elements/tcp/TlsConnectorTest$1.class
+org/eclipse/californium/elements/tcp/TlsConnectorTest$TrustEveryoneTrustManager.class
+org/eclipse/californium/elements/tcp/Catcher.class
+org/eclipse/californium/elements/tcp/TlsConnectorTest.class
+org/eclipse/californium/elements/util/LeastRecentlyUsedCacheTest.class
+org/eclipse/californium/elements/util/LeastRecentlyUsedCacheTest$1.class
+org/eclipse/californium/elements/RawDataTest.class

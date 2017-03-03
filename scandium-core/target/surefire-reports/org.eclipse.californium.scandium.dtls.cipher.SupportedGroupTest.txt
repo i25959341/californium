@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.californium.scandium.dtls.cipher.SupportedGroupTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.175 sec - in org.eclipse.californium.scandium.dtls.cipher.SupportedGroupTest
